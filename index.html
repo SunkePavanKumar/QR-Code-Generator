@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR Generator</title>
+    <meta
+      name="description"
+      content="This is the qr generator which taken the input from the user and generate the qr from the input you can scan and test the same"
+    />
+    <link
+      rel="shortcut icon"
+      href="asserts/favicon-96x96.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <center>
+      <h1>QR CODE GENERATOR</h1>
+      <div>
+        <label for="text-input">Enter text or URL :</label>
+      </div>
+      <input type="text" id="text-input" placeholder="Type Something....." />
+      <button onclick="generateQr()">Generate</button>
+      <div id="qrcontent"></div>
+    </center>
+
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

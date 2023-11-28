@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  color: gray;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+label {
+  font-family: sans-serif;
+  font-size: 30px;
+  color: gray;
+}
+
+input {
+  font-size: 30px;
+  border-radius: 10px;
+  border: 2px solid gray;
+  margin-right: 20px;
+  height: 40px;
+}
+
+input::placeholder {
+  font-size: 20px;
+  opacity: 0.5;
+}
+
+button {
+  font-size: 18px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+#qrcontent {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    min-width: 508px;
+  }
+}
